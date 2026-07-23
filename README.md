@@ -1,6 +1,7 @@
 # Star Wars Text-Based RPG Battle Engine
 
 A console-based, turn-based RPG battle engine written in Java, set in the Star Wars universe. Master the Force, wield your lightsaber, and battle iconic enemies scaling up to a final boss showdown to save the galaxy!
+<img width="840" height="808" alt="image" src="https://github.com/user-attachments/assets/297021ce-24ce-43eb-856a-0d900ecef8a0" />
 
 ---
 
