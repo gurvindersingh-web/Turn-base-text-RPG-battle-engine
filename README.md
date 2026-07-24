@@ -7,6 +7,12 @@ A console-based, turn-based RPG battle engine written in Java, set in the Star W
 
 ## 🚀 Features
 
+- Turn-based battle system with Attack, Defend, and Heal actions
+- **Critical Hit System** — 15% chance to land a critical strike for double damage
+- Enemy stats that scale dynamically with player level
+- Level-up system with increasing HP, Attack, and Defense
+- Final boss battle after defeating 3 enemies
+- ASCII art visuals for characters and enemies
 
 ---
 
@@ -78,6 +84,13 @@ Bonus Defense = (Player Level - 1) * 1
 
 ---
 
+## 🤝 Contributors
+
+- [Rajat Thakur](https://github.com/RajatThakur45)
+
+---
+
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+
