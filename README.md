@@ -7,15 +7,6 @@ A console-based, turn-based RPG battle engine written in Java, set in the Star W
 
 ## 🚀 Features
 
-- **Jedi Customization**: Choose your Jedi's gender (which renders unique ASCII art) and name your hero.
-- **Strategic Turn-Based Combat**:
-  - **Attack**: Strike with your lightsaber (damage calculated against enemy defense).
-  - **Defend**: Use the Force to deflect attacks and halve incoming damage.
-  - **Heal**: Deploy Bacta Tanks (heals 30 HP, limited to 2 uses per battle).
-- **Dynamic Scaling Enemies**: Face off against *Stormtroopers*, *Bounty Hunters*, and *Sith Apprentices* whose stats scale up with your Jedi's level.
-- **Boss Showdown**: After surviving 3 combat encounters, face the menacing final boss: **Mech 2-3F65G-D**.
-- **Jedi Progression**: Level up after every victory to fully restore your health and permanently increase your Max HP, Attack, and Defense.
-- **Retro Visuals**: Rich ASCII art sequences for introductions, character selections, and enemy encounters.
 
 ---
 
