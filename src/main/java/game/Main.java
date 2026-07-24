@@ -151,19 +151,31 @@ public class Main {
                 boolean validAction = false;
 
                 // Player Turn
+                // Player Turn
                 while (!validAction) {
                     System.out.println("\n1. Attack");
                     System.out.println("2. Defend");
                     System.out.println("3. Heal (" + player.healUses + " uses left)");
-                    
+
                     int action = readInt(1, 3);
-                    
+
                     if (action == 1) { // Attack
                         int damage = Math.max(1, player.attack - enemy.defense); // Minimum 1 damage
+
+                        // Critical Hit System: 15% chance to deal double damage
+                        int critRoll = random.nextInt(100); // random number from 0 to 99
+                        boolean isCritical = critRoll < 15;
+
+                        if (isCritical) {
+                            damage = damage * 2;
+                            System.out.println("*** CRITICAL HIT! ***");
+                        }
+
                         enemy.hp -= damage;
                         System.out.println("You struck the " + enemy.name + " with your lightsaber for " + damage + " damage!");
                         validAction = true;
-                    } 
+                    }
+                   
                     else if (action == 2) { // Defend
                         player.defending = true;
                         System.out.println("You use the Force to deflect incoming attacks. Damage halved this round.");
