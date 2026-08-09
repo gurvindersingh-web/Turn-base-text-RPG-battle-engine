@@ -81,13 +81,6 @@ Bonus HP = (Player Level - 1) * 10
 Bonus Attack = (Player Level - 1) * 2
 Bonus Defense = (Player Level - 1) * 1
 ```
-
----
-
-## 🤝 Contributors
-
-- [Rajat Thakur](https://github.com/RajatThakur45)
-
 ---
 
 ## 📝 License
