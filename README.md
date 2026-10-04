@@ -5,7 +5,7 @@ A console-based, turn-based RPG battle engine written in Java, set in the Star W
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Turn-based battle system with Attack, Defend, and Heal actions
 - **Critical Hit System** — 15% chance to land a critical strike for double damage
@@ -16,14 +16,14 @@ A console-based, turn-based RPG battle engine written in Java, set in the Star W
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 - **Java Development Kit (JDK) 21** or higher.
 - **Apache Maven** (for building and executing).
 
 ---
 
-## 🎮 How to Play
+##  How to Play
 
 ### 1. Clone & Navigate
 ```bash
@@ -46,7 +46,7 @@ java -cp target/classes game.Main
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── pom.xml                  # Maven configuration with Java 21 target
@@ -60,7 +60,7 @@ java -cp target/classes game.Main
 
 ---
 
-## ⚔️ Game Mechanics
+##  Game Mechanics
 
 ### Stats Progression per Level Up
 - **Max HP**: +10 (and heals player to full)
@@ -83,7 +83,7 @@ Bonus Defense = (Player Level - 1) * 1
 ```
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
 
